@@ -14,7 +14,7 @@ A Makefile is supplied to build the project, it produces an executable file call
 By default, calling `make` without a target will build with gcc.
 
 Some variables can be set in the call to `make`:
-* `benchmark` contains the names of the benchmarks to run. By default, it contains all the implemented benchmarks: `"FFT BLACKSCHOLES INVERSEK2J JMEINT SOBEL KMEANS"`. A different value of this variable can be specified to run fewer benchmarks.
+* `benchmarks` contains the names of the benchmarks to run. By default, it contains all the implemented benchmarks: `"FFT BLACKSCHOLES INVERSEK2J JMEINT SOBEL KMEANS"`. A different value of this variable can be specified to run fewer benchmarks.
 * `reference_type` is the name of the type used to get the theoretical result of a benchmark. Its default value is "float".
 * `benchmarked_type` is the name of the type whose error and speed must compared to those of the reference type. Its default value is "lns32_t".
 
